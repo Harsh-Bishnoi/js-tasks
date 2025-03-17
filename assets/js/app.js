@@ -29,6 +29,11 @@ function changeBgColor() {
 //  Count the Number of Paragraphs
 function countParagraph() {
     let paraNumber = document.getElementsByTagName("P");
-    const countNmber = paraNumber.length
+    const countNmber = paraNumber.length;
     alert("The Number Of Paragraph is " + countNmber);
+}
+
+// Add a CSS Class to an Element
+function addClass() {
+    document.getElementById("lorem").style.color = "red";
 }
