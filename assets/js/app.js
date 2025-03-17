@@ -15,3 +15,8 @@ function createNewElement() {
     para.textContent = "This is new paragraph";
     document.body.appendChild(para);
 }
+
+// Remove an Element
+function removeElement() {
+    document.getElementById("remove").style.display = "none";
+}
