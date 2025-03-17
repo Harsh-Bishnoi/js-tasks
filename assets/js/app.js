@@ -20,3 +20,8 @@ function createNewElement() {
 function removeElement() {
     document.getElementById("remove").style.display = "none";
 }
+
+// onload
+function changeBgColor() {
+    document.body.style.background = "yellow";
+}
