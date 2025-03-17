@@ -37,3 +37,9 @@ function countParagraph() {
 function addClass() {
     document.getElementById("lorem").style.color = "red";
 }
+
+// Get the Value of a Selected Option
+function getValue() {
+    let dropdownBtn = document.getElementById("dropdown").value;
+    alert(dropdownBtn);
+}
