@@ -25,3 +25,10 @@ function removeElement() {
 function changeBgColor() {
     document.body.style.background = "yellow";
 }
+
+//  Count the Number of Paragraphs
+function countParagraph() {
+    let paraNumber = document.getElementsByTagName("P");
+    const countNmber = paraNumber.length
+    alert("The Number Of Paragraph is " + countNmber);
+}
