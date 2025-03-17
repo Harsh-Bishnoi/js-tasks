@@ -17,6 +17,7 @@
     border: 1px solid black;
     border-radius: 12px;
     padding: 10px;
+    outline: 0;
 }
 
 body {
@@ -28,4 +29,12 @@ body {
     border-radius: 8px;
     padding: 5px;
     max-width: 125px;
+}
+
+.toggleClass {
+    color: rgb(255, 145, 0);
+}
+
+.max-w-1140{
+    max-width: 1140px !important;
 }

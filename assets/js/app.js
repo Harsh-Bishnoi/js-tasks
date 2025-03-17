@@ -43,3 +43,16 @@ function getValue() {
     let dropdownBtn = document.getElementById("dropdown").value;
     alert(dropdownBtn);
 }
+
+// Toggle the Visibility of an Element
+function toggleBtn() {
+    let para2 = document.getElementById("toggleText");
+    para2.classList.toggle("toggleClass");
+}
+
+// Prevent Default Form Submission
+const form = document.getElementById('myForm');
+
+form.addEventListener('submit', (event) => {
+    event.preventDefault();
+});

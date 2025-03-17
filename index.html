@@ -12,7 +12,7 @@
 
 <body onload="changeBgColor()">
     <section class="d-flex justify-content-center align-items-center">
-        <div class="container mt-3">
+        <div class="container mt-3 max-w-1140">
             <!--***** change color *****-->
             <div class="mb-5">
                 <h1 id="para" class="fs-4 fw-bold mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos,
@@ -47,16 +47,31 @@
             <!--***** Get the Value of a Selected Option *****-->
             <div class="mb-5 flex-column d-flex">
                 <div class="d-flex gap-3 mb-3">
-                <label class="fw-semibold fs-4" for="dropdown">Choose an option :</label>
-                <select id="dropdown" class="fs-6 fw-medium">
-                    <option class="fw-normal" value="Select Game">Select Game</option>
-                    <option class="fw-normal" value="Adventure">Adventure</option>
-                    <option class="fw-normal" value="Sports">Sports</option>
-                    <option class="fw-normal" value="Strategy">Strategy</option>
-                    <option class="fw-normal" value="Simulation">Simulation</option>
-                </select>
+                    <label class="fw-semibold fs-4" for="dropdown">Choose an option :</label>
+                    <select id="dropdown" class="fs-6 fw-medium">
+                        <option class="fw-normal" value="Select Game">Select Game</option>
+                        <option class="fw-normal" value="Adventure">Adventure</option>
+                        <option class="fw-normal" value="Sports">Sports</option>
+                        <option class="fw-normal" value="Strategy">Strategy</option>
+                        <option class="fw-normal" value="Simulation">Simulation</option>
+                    </select>
                 </div>
                 <button onclick="getValue()" class="color-btn fw-medium fs-6">Get Selected Value</button>
+            </div>
+            <!--***** Toggle the Visibility of an Element *****-->
+            <div class="mb-5">
+                <p id="toggleText" class="fs-4 fw-bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos
+                    explicabo voluptate necessitatibus quis earum ea aut magni molestias sit, optio ipsum qui natus
+                    repellat veniam veritatis, iure minus ipsam? Illo?
+                </p>
+                <button onclick="toggleBtn()" class="color-btn fw-medium fs-6">Toggle</button>
+            </div>
+            <!--***** Prevent Default Form Submission *****-->
+            <div class="mb-5">
+                <form action="mailto:harshbishnoi855@gmail.com" id="myForm" class="d-flex gap-3">
+                    <input class="w-100 text-input fs-5 fw-semibold" type="text" name="name" placeholder="Type Here" required>
+                    <button class="color-btn fw-medium fs-6" type="submit">Submit Text</button>
+                </form>
             </div>
         </div>
     </section>
